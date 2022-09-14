@@ -1,0 +1,1 @@
+Debugging is the process of detecting and resolving bugs in order to prevent incorrect operations in a computer program. This can be achieved by using the following tactics: interactive debugging, control flow analysis, monitoring at the application or system level, memory dumps, and profiling.
