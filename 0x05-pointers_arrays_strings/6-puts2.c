@@ -3,11 +3,11 @@
 /**
  * puts2 - prints every other char of a string, starting with the first char
  * followed by a new line
- * @str: string to be printed
+ * @str: string to print the chars from
  */
 void puts2(char *str)
 {
-	int len, n, i;
+	int len, i;
 
 	len = 0;
 
@@ -16,18 +16,10 @@ void puts2(char *str)
 		len++;
 	}
 
-	if (len % 2 == 0)
+	for (i = 0; i < len; i += 2)
 	{
-		for (i = len / 2; str[i] != '\0'; i++)
-		{
-			_putchar(str[i]);
-		}
-	} else if (len % 2)
-	{
-		for (n = (len - 1) / 2; n < len - 1; n++)
-		{
-			_putchar(str[n + 1]);
-		}
+		_putchar(str[i]);
 	}
-	_putchar(10);
+
+	_putchar('\n');
 }
