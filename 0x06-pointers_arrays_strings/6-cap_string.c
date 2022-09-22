@@ -29,6 +29,6 @@ char *cap_string(char *s)
 			}
 		}
 	}
-	
+
 	return (s);
 }
