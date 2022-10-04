@@ -69,7 +69,7 @@ char **strtow(char *str)
 			}
 		}
 		else if (c++ == 0)
-			start i;
+			start = i;
 	}
 
 	matrix[k] = NULL;
