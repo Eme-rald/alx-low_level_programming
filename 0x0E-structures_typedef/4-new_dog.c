@@ -13,7 +13,7 @@ char *_strcpy(char *s)
 
 	for (i = 0; s[i]; i++)
 		;
-	p = malloc(i +1);
+	p = malloc(i + 1);
 	if (p)
 	{
 		for (; i >= 0; i--)
@@ -43,7 +43,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 	p->age = age;
-	p_>owner = _strcpy(owner);
+	p->owner = _strcpy(owner);
 	if (p->owner == NULL)
 	{
 		free(p->name);
