@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		puts("Error");
-		retrun(98);
+		return (98);
 	}
 	num1 = atoi(argv[1]);
 	num2 = atoi(argv[3]);
