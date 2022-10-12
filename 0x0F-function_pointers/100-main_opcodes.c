@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	fn = (char *)main;
 	for (; n > 0; n--, fn++)
 	{
-		printf("%2x", *fn & 0xff);
+		printf("%02x", *fn & 0xff);
 		if (n != 1)
 			putchar(' ');
 	}
